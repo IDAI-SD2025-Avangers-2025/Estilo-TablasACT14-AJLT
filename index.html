@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="iconos/fontawesome-free-7.1.0-web/css/all.css">
+    <title>Tablas con Estilo</title>
+    <style>
+        table {
+            margin: auto;
+            margin-top: 50px;
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 16px;
+            border-collapse: collapse;
+        }
+
+        table th{
+            background-color: #17a2b8;
+            color: #fff;
+            font-weight: 600;
+            width: 100px;
+
+        }
+
+        table th,
+        table td{
+            border: 1px solid #dee2e6;
+            padding: 5px 10px;
+        }
+
+        table th,
+        table td:first-child{
+            background-color: #29b491;
+            color: #fff;
+            font-weight: 600;
+            width: 100px;
+        }
+
+        table td i{
+            margin-right: 15px;
+            font-size: 15px;
+            cursor: pointer ;
+        }
+
+        table td i:nth-child(1){
+            color: #5cc3d3;
+        }
+
+        table td i:nth-child(2){
+            color: #00ff3c;
+        }
+
+        table td i:nth-child(3){
+            color: #ff0019;
+            margin-right: 0px;
+        }
+
+        table tr:nth-child(odd){
+            background-color: rgba(0, 0, 0, 0.1);
+        }
+
+        table tr:hover{
+            background-color: rgba(0, 0, 0, 0.3);
+        }
+        
+        table td i:hover{
+            opacity: 0.7;
+        }
+
+        h1{
+            text-align: center;
+        }
+
+        
+    </style>
+</head>
+<body>
+    <h1>Aplicación de estilos a tablas</h1>
+
+    <table>
+        <thead>
+            <tr>
+                <th>
+                    ID
+                </th>
+                <th>
+                    Nombre (s)
+                </th>
+                <th>
+                    Apellidos
+                </th>
+                <th>
+                    Correo Electronico
+                </th>
+                <th>
+                    opciones
+                </th>
+
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    12345
+                </td>
+                <td>
+                    Aldo 
+                </td>
+                <td>
+                    Elizaldes
+                </td>
+                <td>
+                    adlo.elizalde@hotmail.com
+                </td>
+                <td>
+                <i class="fa-solid fa-circle-info"></i>
+                <i class="fa-solid fa-pen-to-square"></i>
+                <i class="fa-regular fa-trash-can"></i>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    45321
+                </td>
+                <td>
+                    Emilio
+                </td>
+                <td>
+                    Colorado
+                </td>
+                <td>
+                    ecolorado@yahoo.com
+                </td>
+                <td>
+                <i class="fa-solid fa-circle-info"></i>
+                <i class="fa-solid fa-pen-to-square"></i>
+                <i class="fa-regular fa-trash-can"></i>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    56789
+                </td>
+                <td>
+                    Francisco
+                </td>
+                <td>
+                    Cepeda
+                </td>
+                <td>
+                    cepeda.francisco@gmail.com
+                </td>
+                <td>
+                <i class="fa-solid fa-circle-info"></i>
+                <i class="fa-solid fa-pen-to-square"></i>
+                <i class="fa-regular fa-trash-can"></i>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    11212
+                </td>
+                <td>
+                    Luis
+                </td>
+                <td>
+                    Cepeda
+                </td>
+                <td>
+                    cepeda.luis@gmail.com
+                </td>
+                <td>
+                <i class="fa-solid fa-circle-info"></i>
+                <i class="fa-solid fa-pen-to-square"></i>
+                <i class="fa-regular fa-trash-can"></i>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    22222
+                </td>
+                <td>
+                    Juan
+                </td>
+                <td>
+                    Cepeda
+                </td>
+                <td>
+                    cepeda.juan@gmail.com
+                </td>
+                <td>
+                <i class="fa-solid fa-circle-info"></i>
+                <i class="fa-solid fa-pen-to-square"></i>
+                <i class="fa-regular fa-trash-can"></i>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    31313
+                </td>
+                <td>
+                    Miguel
+                </td>
+                <td>
+                    Cepeda
+                </td>
+                <td>
+                    cepeda.miguel@gmail.com
+                </td>
+                <td>
+                <i class="fa-solid fa-circle-info"></i>
+                <i class="fa-solid fa-pen-to-square"></i>
+                <i class="fa-regular fa-trash-can"></i>
+                </td>
+            </tr>
+
+                        <tr>
+                <td>
+                    31313
+                </td>
+                <td>
+                    Miguel
+                </td>
+                <td>
+                    Cepeda
+                </td>
+                <td>
+                    cepeda.miguel@gmail.com
+                </td>
+                <td>
+                <i class="fa-solid fa-circle-info"></i>
+                <i class="fa-solid fa-pen-to-square"></i>
+                <i class="fa-regular fa-trash-can"></i>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    42134
+                </td>
+                <td>
+                    Julio
+                </td>
+                <td>
+                    Martinez
+                </td>
+                <td>
+                    martinez.julio@gmail.com
+                </td>
+                <td>
+                <i class="fa-solid fa-circle-info"></i>
+                <i class="fa-solid fa-pen-to-square"></i>
+                <i class="fa-regular fa-trash-can"></i>
+                </td>
+            </tr>            
+
+            <tr>
+                <td>
+                    72819
+                </td>
+                <td>
+                    Thomas
+                </td>
+                <td>
+                    Alvarez
+                </td>
+                <td>
+                    alvarez.thomas@gmail.com
+                </td>
+                <td>
+                <i class="fa-solid fa-circle-info"></i>
+                <i class="fa-solid fa-pen-to-square"></i>
+                <i class="fa-regular fa-trash-can"></i>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    61520
+                </td>
+                <td>
+                    Martin
+                </td>
+                <td>
+                    Lara
+                </td>
+                <td>
+                    lara.martin@gmail.com
+                </td>
+                <td>
+                <i class="fa-solid fa-circle-info"></i>
+                <i class="fa-solid fa-pen-to-square"></i>
+                <i class="fa-regular fa-trash-can"></i>
+                </td>
+            </tr>            
+
+        </tbody>
+
+    </table>
+
+</body>
+</html>
